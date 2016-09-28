@@ -63,7 +63,10 @@ Once you've created your app, you should see your Client ID and Client Secret on
 
 Now that we have them, we can try that request again with our app credentials. Enter the URL with your client id and secret into your browser:
 
-`https://api.foursquare.com/v2/venues/40a55d80f964a52020f31ee3?client_id=YOUR_CLIENT_ID&client_secret=YOUR_SECRET&v=20150201`
+`https://api.foursquare.com/v2/venues/40a55d80f964a52020f31ee3?client_id=YOUR_CLIENT_ID&client_secret=YOUR_SECRET&v=20150201&v=20140806
+  &m=foursquare
+      
+`
 
 If you put in your client ID and secret, you should see some JSON that looks like this:
 
@@ -133,3 +136,5 @@ We've looked at consuming an API with Postman, using an application Client ID/Se
 Spend some time poking around the Foursquare API documentation and use Postman to try out the various endpoints.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/apis-and-postman'>APIs And Postman</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/apis-and-postman'>APIs And Postman</a> on Learn.co and start learning to code for free.</p>
